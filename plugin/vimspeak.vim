@@ -51,7 +51,7 @@ if !exists("g:vimspeak_args")
 endif
 
 if !exists("g:vimspeak_speed")
-  let g:vimspeak_speed="-s 300"
+  let g:vimspeak_speed="-s 250"
 endif
 
 if !exists("g:vimspeak_punct")

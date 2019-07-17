@@ -16,7 +16,7 @@ actions:
 - St: toggle vimspeak off or on (default: on or g:vimspeak_enabled=1)
 - Sc: cancel the current reading
 - Sl: read out the current line number
-- Ss: adjust the speed of speech (default: 300 or g:vimspeak_speed="-s 300")
+- Ss: adjust the speed of speech (default: 250 or g:vimspeak_speed="-s 250")
 - Sp: toggle punctuation (default: on or g:vimspeak_punct="--punct")
 - Sb: read the name of the current buffer
 
@@ -30,7 +30,7 @@ vimspeak reads a few global variables to adjust its behavior:
 
 g:vimspeak_args: arguments passed to espeak (default: -k30)
 
-g:vimspeak_speed: arguments passed to espeak (default: -s 300)
+g:vimspeak_speed: arguments passed to espeak (default: -s 250)
 
 g:vimspeak_punct: arguments passed to espeak (default: --punct)
 
